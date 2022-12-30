@@ -36,18 +36,7 @@
             <artifactId>commons-httpclient</artifactId>
             <version>3.1</version>
         </dependency>
-        <dependency>
-            <groupId>org.elasticsearch</groupId>
-            <artifactId>elasticsearch-hadoop-hive</artifactId>
-            <version>8.5.3</version>
-        </dependency>
-        <dependency>
-            <groupId>org.elasticsearch</groupId>
-            <artifactId>elasticsearch-spark-30_2.12</artifactId>
-            <version>8.5.3</version>
-        </dependency>
     </dependencies>
-
 
     <build>
         <plugins>
