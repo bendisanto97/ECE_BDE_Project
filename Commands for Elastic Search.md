@@ -1,3 +1,4 @@
+## Command #1 - 
 curl -X PUT "localhost:9200/logs?pretty" -H 'Content-Type: application/json' -d'
 {
 	"mappings" : {
@@ -14,5 +15,5 @@ curl -X PUT "localhost:9200/logs?pretty" -H 'Content-Type: application/json' -d'
 }
 '
 
-
+## Command #2 - 
 curl 'localhost:9200/_cat/indices?v'
